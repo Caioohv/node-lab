@@ -1,0 +1,11 @@
+{
+  "name": "lab",
+  "version": "1.0.0",
+  "description": "Repositório com códigos Node.js feitos com objetivos de aprendizagem e desenvolvimento pessoal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caio Vieira",
+  "license": "ISC"
+}

@@ -128,5 +128,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-
-websocket_simple-with-express/node_modules/
