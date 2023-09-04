@@ -4,8 +4,18 @@
   "description": "Repositório com códigos Node.js feitos com objetivos de aprendizagem e desenvolvimento pessoal",
   "main": "index.js",
   "scripts": {
+    "websocket": "nodemon ./websocket-chat/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Caio Vieira",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "socket.io": "4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-config-google": "^0.14.0"
+  }
 }
