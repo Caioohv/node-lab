@@ -54,7 +54,7 @@ class File {
       const columns = line.split(',')
       const user = {}
       for(let index in columns){
-        user[header[index]] = columns[index]
+        user[header[index]] = columns[index].trim()
       }
       return user
     })
