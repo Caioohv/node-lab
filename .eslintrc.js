@@ -15,5 +15,6 @@ module.exports = {
     'quotes': ['error', 'single'],
     'linebreak-style': ['error', 'unix'],
     'object-curly-spacing': ['warn', 'always'],
+    'require-jsdoc': 'off',
   },
 };

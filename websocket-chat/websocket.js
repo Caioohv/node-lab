@@ -6,4 +6,8 @@ io.on('connection', (socket) => {
   socket.on('sessionLogin', (data) => {
     console.log(data)
   })
+
+  socket.on('select_room', (data) => {
+    console.log(data)
+  })
 })

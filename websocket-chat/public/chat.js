@@ -12,9 +12,10 @@ const sessionContent = {
 
 socket.on('connect', () => {
   console.log('connected: ', socket.id)
-  socket.emit('sessionLogin', sessionContent)
 });
 
 socket.on('disconnect', (obj) => {
-  console.log('----------->disconnect: ', (obj))
+  console.log('Socket disconnected: ')
 })
+
+socket.emit('select_room', sessionContent)
